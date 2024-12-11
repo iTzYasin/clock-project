@@ -1,0 +1,62 @@
+*{
+    margin: 0; border: 0;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0 30px;
+}
+.dates{
+    width: 350px;
+    height: 430px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.dates div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+}
+.dates .top-column{
+    height: 65%;
+    width: 100%;
+}
+.dates .bottom-column{
+    height: 35%;
+    width: 100%;
+    font-size: 4em;
+    background-color: rgb(1,7,14);
+}
+.dates:nth-child(1) , .dates:nth-child(2){
+    background-color: rgb(45, 190, 180);
+}
+.dates:nth-child(1) .bottom-column, .dates:nth-child(2) .bottom-column{
+    background-color: rgb(31,  134, 126) !important;
+}
+.dates:nth-child(3){
+    background-color: rgb(2, 21, 42);
+    color: white;
+}
+
+
+
+
+
+
+
+
